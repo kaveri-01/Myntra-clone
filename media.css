@@ -1,0 +1,259 @@
+@media screen and (max-width:500px) {
+    #full-page{
+        /* height:300vh; */
+    }
+    #navbar{
+        height:5%;
+        justify-content: space-between;
+    }
+    #nav-link,#nav-search,#nav-icon >div > p{
+        display: none;
+    }
+    #nav-logo{
+        width:15%;
+    }
+    #nav-icon{
+        width:40%;
+    }
+    #nav-icon >div > i{
+        font-size: 3vw;
+    }
+    #nav-icon >div:nth-child(1),#nav-icon >div:nth-child(2){
+        display: unset;
+        padding-bottom: 2%;
+    }
+    #t-shirt{
+        margin-top: 11%;
+        height:50%;
+    }
+    #t-shirt >div:nth-child(1){
+        height: 1%;
+    }
+    #t-shirt >div:nth-child(1)>p{
+        font-size: 2.2vw;
+    }
+    #t-shirt-left{
+        width:100%;
+        height:20%
+    }
+    #t-shirt-left >div{
+        display: none;
+    }
+    #t-shirt-left >div:nth-child(1){
+        width: 100%;
+        height:100%;
+        display:unset;
+    }
+    #t-shirt-right{
+        height: 80%;
+        width:100%;
+    }
+    #t-shirt-right-first{
+        height: 2%;
+        flex-direction: row;
+        align-items: center;
+        border:none;
+    }
+    #t-shirt-right-first >p:nth-child(1),#t-shirt-right-first >p:nth-child(2){
+        font-size: 4.5vw;
+        width:12%;
+        font-weight: lighter;
+        color:black;
+    }
+    #t-shirt-right-first >p:nth-child(2){
+        width:90%
+    }
+    #t-shirt-right-first >p:nth-child(3){
+        display: none;
+    }
+    #t-shirt-right-second{
+        height: 3%;
+    }
+    #t-shirt-right-second >div:nth-child(1){
+        width:60%;
+    }
+    #t-shirt-right-second >div:nth-child(1)>p:nth-child(1),
+    #t-shirt-right-second >div:nth-child(1)>p:nth-child(2)
+    ,#t-shirt-right-second >div:nth-child(1)>p:nth-child(3) {
+        font-size:3.5vw;
+    }
+    #t-shirt-right-second >div:nth-child(2) >p{
+        font-size: 3.5vw;
+    }
+    #t-shirt-right-third{
+        height: 8%;
+    }
+    #t-shirt-right-third >div:nth-child(1){
+        width:95%;
+        padding: 10px 0;
+        margin:auto;
+        justify-content: space-between;
+    }
+    #t-shirt-right-third >div:nth-child(1) >p:nth-child(1),#t-shirt-right-third >div:nth-child(1) >p:nth-child(2){
+        font-size: 3vw;
+    }
+    #t-shirt-right-third >div:nth-child(2){
+        height: 30%;
+        padding-bottom: 10px;
+    }
+    #t-shirt-right-third >div:nth-child(2)>div >p{
+        font-size: 4vw;
+    }
+    #t-shirt-right-third >div:nth-child(3){
+        display: none;
+    }
+    #t-shirt-right-fourth{
+        height:20%;
+    }
+    .dilivery-names>p:nth-child(2), .dilivery-names>i{
+        display: none;
+    }
+    #dilivery-option >div:nth-child(2){
+        height:12%;
+        width:60%;
+    }
+    #dilivery-option >div:nth-child(2) input, a{
+        font-size: 3.8vw;
+    }
+    .display{
+        display:unset;
+    }
+    .dilivery-names >p{
+        font-size: 3.5vw;
+    }
+    #dilivery-option >div:nth-child(3){
+
+    }
+    #dilivery-option >div:nth-child(3) >p{
+        display: none;
+    }
+    #dilivery-option >div:nth-child(3) >div>p{
+        font-size:3.5vw;
+    }
+    .offer-names{
+        display:none;
+    }
+    #best-offer >div:nth-child(2) >div:nth-child(3),#best-offer >div:nth-child(2) >div:nth-child(4){
+        display: none;
+    }
+    #best-offer >div:nth-child(2) >div:nth-child(1){
+        height:20%;
+        margin-top: 5%;
+    }
+    #best-offer >div:nth-child(2) >div:nth-child(2){
+        height: 70%;
+    }
+    #best-offer >div:nth-child(2) >div:nth-child(1) >p{
+        font-size: 4vw;
+    }
+    #best-offer >div:nth-child(2) >div:nth-child(2) >ul{
+        font-size: 3.8vw;
+        line-height: 20px;
+    }
+    #product-details >div:nth-child(2){
+        display:none;
+    }
+    #product-details {
+        height:8%;
+    }
+    .product-text >p, .product-text >h5{
+        font-size:3.7vw;
+    }
+    #ratings{
+        height:15%;
+    }
+    #ratings >h5,#ratings >div:nth-child(3) >h5,#ratings >div:nth-child(2) >div:nth-child(1) >p:nth-child(2){
+        font-size:3.5vw;
+    }
+    #ratings >div:nth-child(2) >div:nth-child(1) >p:nth-child(1){
+        font-size:6vw;
+    }
+    #ratings >div:nth-child(2) >div:nth-child(1) >p:nth-child(1) >i{
+        font-size:5vw;
+    }
+    #ratings >p{
+        font-size:4vw;
+    }
+    #reviews{
+        height:35%;
+    }
+    #reviews-top >p{
+        font-size:4vw;
+    }
+    .reviews-bot >div:nth-child(1){
+        align-self: self-start;
+    }
+    .review-img >div:last-child >p,.reviews-bot >div:nth-child(4) >p,.reviews-bot >div:nth-child(1),.reviews-bot >div:nth-child(2) >p{
+        font-size:3.5vw;
+    }
+    #t-shirt-right >div:last-child >div:nth-child(1) >p,#t-shirt-right >div:last-child >div:nth-child(2) >p{
+        font-size:3.5vw;
+    }
+    .card-name{
+        height:0.5%;
+    }
+    .card-name >p{
+        font-size: 3vw;
+    }
+    .card{
+        height:7%;
+    }
+    .card >div{
+        width:30%;
+    }
+    .card >div:nth-child(4),.card >div:nth-child(5),.card >div:nth-child(6){
+        display: none;
+    }
+    .card-bot >p{
+        font-size:3.2vw;
+    }
+    .card-bot >div >p:nth-child(1){
+        font-size:3vw;
+    }
+    .card-bot >div >p:nth-child(3),.card-bot >div >p:nth-child(2){
+        font-size:2.3vw;
+    }
+    footer{
+        height:6%;
+        
+    }
+    footer >div:nth-child(1), footer >div:nth-child(2){
+        width: 100%;
+    }
+    .list >p,fieldset >div >p{
+        font-size:2vw;
+    }
+    .list >h5{
+        font-size:2.5vw;
+    }
+    #footer-btn >h5,legend{
+        font-size:2vw;
+    }
+    #assured>div:nth-child(2)>p,#assured>div:nth-child(4) >p{
+        font-size:1.8vw;
+    }
+    footer >div:nth-child(2) >div:nth-child(2) >p{
+        font-size:1.5vw;
+    }
+/* // Register Page */
+    #sign-in{
+        width:100%;
+        height:70%;
+        margin-top: 30%;
+    }
+    #sign-in-bot >div:nth-child(1) >p{
+        font-size: 4.5vw;
+    }
+    #sign-in-bot >div:nth-child(1) >p >i{
+        font-size: 3.5vw;
+    }
+    #sign-in-bot >div:nth-child(2) >form >input, .input-fields{
+        font-size:4vw;
+    }
+    #sign-in-bot >div:nth-child(2) >form >label{
+        font-size:3.2vw;
+    }
+
+
+
+}

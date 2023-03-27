@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media.css" />
+    <script
+      src="https://kit.fontawesome.com/d98822fee5.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Add Products</title>
+  </head>
+  <body>
+    <div id="reg-full-page">
+      <div id="navbar">
+        <div id="nav-logo">
+          <img
+            src="https://cdn3.freelogovectors.net/wp-content/uploads/2023/01/myntra-logo-freelogovectors.net_-400x225.png"
+            alt="myntra"
+          />
+        </div>
+        <div id="nav-link">
+          <div><p>Men</p></div>
+          <div><p>Women</p></div>
+          <div><p>Kids</p></div>
+          <div><p>Home & Living</p></div>
+          <div><p>Beauty</p></div>
+          <div><p>Studio</p></div>
+        </div>
+        <div id="nav-search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="search"
+            placeholder="Search for Products,brand and more"
+          />
+        </div>
+        <div id="nav-icon">
+          <!-- ///only in mobile view -->
+          <div class="none"><i class="fa-regular fa-square-plus"></i></div>
+          <div class="none"><i class="fa-solid fa-magnifying-glass"></i></div>
+          <div>
+            <i class="fa-regular fa-user"></i>
+            <p>Profile</p>
+          </div>
+          <div>
+            <i class="fa-regular fa-heart"></i>
+            <p>Whishlist</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-bag-shopping"></i>
+            <p>Bag</p>
+          </div>
+        </div>
+      </div>
+      <div id="main">
+        <div id="sign-in">
+          <div id="sign-in-top"></div>
+          <div id="sign-in-bot">
+            <div>
+              <p>Add Product <i>or</i> Page</p>
+            </div>
+            <div>
+              <div>
+                <input
+                  type="text"
+                  id="produtName"
+                  class="input-fields"
+                  placeholder="Enter Product Name"
+                  required
+                />
+                <input
+                  type="text"
+                  id="productImage"
+                  class="input-fields"
+                  placeholder="Enter Product Image Url"
+                  required
+                />
+                <input
+                  type="number"
+                  id="productPrice"
+                  class="input-fields"
+                  placeholder="Enter Product Price"
+                  required
+                />
+                <label class="label"
+                  >By continuing, I agree to the <span>Terms of Use</span> &
+                  <span>Privacy Policy</span></label
+                >
+                <button onclick="addProduct(event)" class="input-fields submit-btn">Add</button>
+                <label class="label" onclick="window.location.href='/displayproduct.html'"><a><span>HomePage</span></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/server.js"></script>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media.css" />
+    <script
+      src="https://kit.fontawesome.com/d98822fee5.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Register</title>
+  </head>
+  <body>
+    <div id="reg-full-page">
+      <div id="navbar">
+        <div id="nav-logo">
+          <img
+            src="https://cdn3.freelogovectors.net/wp-content/uploads/2023/01/myntra-logo-freelogovectors.net_-400x225.png"
+            alt="myntra"
+          />
+        </div>
+        <div id="nav-link"  onclick="window.location.href='/displayProduct.html' " class="cursor">
+          <div><p>Men</p></div>
+          <div><p>Women</p></div>
+          <div><p>Kids</p></div>
+          <div><p>Home & Living</p></div>
+          <div><p>Beauty</p></div>
+          <div><p>Studio</p></div>
+        </div>
+        <div id="nav-search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="search"
+            placeholder="Search for Products,brand and more"
+          />
+        </div>
+        <div id="nav-icon">
+          <!-- ///only in mobile view -->
+          <div class="none"><i class="fa-regular fa-square-plus"></i></div>
+          <div class="none"><i class="fa-solid fa-magnifying-glass"></i></div>
+          <div>
+            <i class="fa-regular fa-user"></i>
+            <p>Profile</p>
+          </div>
+          <div>
+            <i class="fa-regular fa-heart"></i>
+            <p>Whishlist</p>
+          </div>
+          <div  onclick="window.location.href='cart.html' " class="cursor">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <p>Bag</p>
+          </div>
+        </div>
+      </div>
+      <div id="main">
+        <div id="sign-in">
+          <div id="sign-in-top"></div>
+          <div id="sign-in-bot">
+            <div>
+              <p>Log in <i>or</i> Page</p>
+            </div>
+            <div>
+                <form onsubmit="register(event)">
+                  <input type="text" id="name" class="input-fields" placeholder="Enter User Name" required/>
+                  <input type="number" id="number" class="input-fields" placeholder="+91 |   Mobile Number " required/>
+                  <input type="email" id="email" class="input-fields" placeholder="Enter Mail Id" required />
+                  <input type="password" id="password" class="input-fields" placeholder="Enter password" required/>
+                  <input type="password" id="conform-password" class="input-fields" placeholder=" conform password" required/>
+                  <label>By continuing, I agree to the <span>Terms of Use</span> & <span>Privacy Policy</span></label>
+                  <input type="submit" class="input-fields submit-btn" value="Sign Up"/>
+                  <label>Already Register? <span><a href="/login.html">Click to Log in</a></span></label>
+                </form>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/server.js"></script>
+    <script>
+      var dataFromLs =JSON.parse(localStorage.getItem("currentUser"));
+
+      if(dataFromLs){
+        alert("Already Loged in");
+        window.location.href ='homepage.html';
+      }
+    </script>
+  </body>
+</html>

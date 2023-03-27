@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Cart</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media.css" />
+    <script
+      src="https://kit.fontawesome.com/d98822fee5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="cart-page">
+      <div class="cart-navbar">
+        <div id="nav-logo">
+          <img
+            src="https://cdn3.freelogovectors.net/wp-content/uploads/2023/01/myntra-logo-freelogovectors.net_-400x225.png"
+            alt="myntra"
+          />
+        </div>
+        <div id="nav-link">
+          <div>
+            <p class="color">BAG</p>
+          </div>
+          <div>
+            <p>------</p>
+          </div>
+          <div>
+            <p>ADDRESS</p>
+          </div>
+          <div>
+            <p>------</p>
+          </div>
+          <div>
+            <p>PAYMENT</p>
+          </div>
+        </div>
+
+        <div class="checkgreen">
+          <div>
+            <img
+              src="https://constant.myntassets.com/checkout/assets/img/sprite-secure.png"
+              alt="icon"
+            />
+          </div>
+          <div>
+            <p>100% SECURE</p>
+          </div>
+        </div>
+      </div>
+      <div class="cart-body">
+        <div>
+          <div class="cart-body-left display">
+            <div class="display">
+              <p>Check delivery time & services</p>
+              <button>Enter Pin code</button>
+            </div>
+            <div class="display">
+              <div class="display">
+                <i class="fa-regular fa-snowflake"></i>
+                <p>Available offer</p>
+              </div>
+              <p>
+                10% Instant Discount on Kotak Credit and Debit Cards on a
+                minimum spend of Rs 3,000. TCA
+              </p>
+              <div class="display">
+                <p>Show More</p>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+            </div>
+            <div class="display">
+              <div>
+                <img
+                  src="https://constant.myntassets.com/checkout/assets/img/ship-free.webp"
+                />
+              </div>
+              <p>Yay! <strong>No convenience fee</strong> on this order.</p>
+            </div>
+
+            <div class="display">
+              <div class="display">
+                <input type="checkbox" />
+                <p>1/1 ITEMS SELECTED</p>
+              </div>
+              <div class="display">
+                <p>REMOVE</p>
+                <p></p>
+                <p>MOVE TO WISHTLIST</p>
+              </div>
+            </div>
+
+            <div id="displayCart">
+              <div>
+                <div><img src="" alt="productImg" /></div>
+                <div><p></p></div>
+                <div><p></p></div>
+              </div>
+            </div>
+
+            <div class="display">
+              <div class="display">
+                <div>
+                  <img
+                    src="https://constant.myntassets.com/checkout/assets/img/products-blurred.webp"
+                    alt="icon"
+                  />
+                </div>
+                <p>Login to see items from your existing bag and wishlist.</p>
+              </div>
+              <div>
+                <p>LOGIN NOW</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cart-body-right">
+            <div>
+              <p>Coupons</p>
+              <div>
+                <i class="fa-solid fa-tag"></i>
+                <p>Apply Coupons</p>
+                <button>APPLY</button>
+              </div>
+              <p><span>Login</span> to get upto ₹400 OFF on first order</p>
+            </div>
+
+            <div>
+              <div>
+                <input type="checkbox" />
+                <p>Support Us</p>
+              </div>
+              <div>
+                <button>₹15</button>
+                <button>₹50</button>
+                <button>₹100</button>
+                <button>other</button>
+              </div>
+              <span>Know More</span>
+            </div>
+
+            <div>
+              <p>PRICE DETAILS</p>
+              <div>
+                <p>Total MRP</p>
+                <p>₹499</p>
+              </div>
+              <div>
+                <p>Discount on MRP</p>
+                <p class="green">-₹229</p>
+              </div>
+              <div>
+                <p>Coupon Discount</p>
+                <p class="pink">Apply Coupon</p>
+              </div>
+              <div>
+                <p>Convenience Fee <span>Know More</span></p>
+                <p class="green">FREE</p>
+              </div>
+              <div>
+                <p>Total Amount</p>
+                <p>₹274</p>
+              </div>
+            </div>
+            <div>
+              <button onclick="buy()">PLACE ORDER</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer-cart">
+      <div>
+        <div>
+          <img
+            src="https://constant.myntassets.com/checkout/assets/img/footer-bank-ssl.png"
+            alt="payment"
+          />
+        </div>
+        <div>
+          <img
+            src="https://constant.myntassets.com/checkout/assets/img/footer-bank-visa.png"
+            alt="payment"
+          />
+        </div>
+        <div>
+          <img
+            src="https://constant.myntassets.com/checkout/assets/img/footer-bank-mc.png"
+            alt="payment"
+          />
+        </div>
+        <div>
+          <img
+            src="https://constant.myntassets.com/checkout/assets/img/footer-bank-ae.png"
+            alt="payment"
+          />
+        </div>
+        <div>
+          <img
+            src="https://constant.myntassets.com/checkout/assets/img/footer-bank-dc.png"
+            alt="payment"
+          />
+        </div>
+        <div>
+          <img
+            src="https://constant.myntassets.com/checkout/assets/img/footer-bank-nb.png"
+            alt="payment"
+          />
+        </div>
+        <div>
+          <img
+            src="https://constant.myntassets.com/checkout/assets/img/footer-bank-cod.png"
+            alt="payment"
+          />
+        </div>
+        <div>
+          <img
+            src="https://constant.myntassets.com/checkout/assets/img/footer-bank-rupay.png"
+            alt="payment"
+          />
+        </div>
+        <div>
+          <img
+            src="https://constant.myntassets.com/checkout/assets/img/footer-bank-paypal.png"
+            alt="payment"
+          />
+        </div>
+        <div>
+          <img
+            src="https://constant.myntassets.com/checkout/assets/img/footer-bank-bhim.png"
+            alt="payment"
+          />
+        </div>
+      </div>
+      <div><p>Need help? Contact Us</p></div>
+    </div>
+
+    <script>
+      window.onload = function () {
+        var currentUser = JSON.parse(localStorage.getItem("currentUser"));
+
+        if (!currentUser) {
+          alert("Please Log in first");
+          window.location.href = "login.html";
+        } else {
+          var dataFromLs = JSON.parse(localStorage.getItem("userData"));
+          var divFromHtml = document.getElementById("displayCart");
+
+          var flag = false;
+          var cartProduct;
+          for (var i = 0; i < dataFromLs.length; i++) {
+            if (
+              dataFromLs[i].email === currentUser["currentUserEmail"] &&
+              dataFromLs[i].cartProduct.length >0
+            ) {
+              cartProduct =dataFromLs[i].cartProduct;
+              flag =true;
+            }
+          }
+          if(flag == false){
+            alert("noproduct added to cart, Go and buy some product");
+            window.location.href ='/displayProduct.html';
+          }
+          else{
+            var productWithHtml =[];
+            for(var i=0; i<cartProduct.length; i++){
+              productWithHtml+= `<div>
+                <div><img src="${cartProduct[i].image}" alt="productImg" /></div>
+                <div><p>${cartProduct[i].name}</p></div>
+                <div><p>₹ ${cartProduct[i].price}</p></div>
+              </div>`;
+            }
+            divFromHtml.innerHTML =productWithHtml;
+          }
+        }
+      };
+
+      function buy(){
+        var currentUser = JSON.parse(localStorage.getItem("currentUser"));
+        var dataFromLs = JSON.parse(localStorage.getItem("userData"));
+
+        var allUser =[];
+        for (var i = 0; i < dataFromLs.length; i++) {
+            if (dataFromLs[i].email === currentUser["currentUserEmail"] && dataFromLs[i].cartProduct) {
+              dataFromLs[i].cartProduct =[];
+              allUser.push(dataFromLs[i]);
+            }
+            else{
+              allUser(dataFromLs[i]);
+            }
+          }
+
+          localStorage.setItem("userData",JSON.stringify(allUser));
+          window.location.href ='/displayProduct.html';
+          alert("Product will be delivered soon")
+
+      }
+    </script>
+  </body>
+</html>
